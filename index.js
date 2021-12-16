@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 4545
 
-app.listen(port, () => console.log(`Take us to ward 4545 ${port}!`))
+app.listen(port, () => console.log(`Take us to ward ${port}!`))
